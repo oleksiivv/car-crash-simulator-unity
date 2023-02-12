@@ -1932,12 +1932,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 849c9596baca45c419f281e0db864afd, type: 3}
   - {fileID: 21300000, guid: 67461f48873da7840b50d8eff1b41bf0, type: 3}
   descriptionsForOpen:
-  - lorem ipsum is a simple dummy text 1
-  - lorem ipsum is a simple dummy text 2
-  - lorem ipsum is a simple dummy text 3
-  - lorem ipsum is a simple dummy text 4
-  - lorem ipsum is a simple dummy text 5
-  - lorem ipsum is a simple dummy text 6
+  - Available
+  - Available
+  - Will be available after level 2
+  - Will be available after level 4
+  - Will be available after level 5
+  - Will be available after level 7
   descriptionToBought: after purchasing car will be available in each level
   carPriceInBuyPanel: {fileID: 287972386}
   carNameInBuyPanel: {fileID: 2001900110}
