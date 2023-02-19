@@ -2617,7 +2617,7 @@ MonoBehaviour:
   studyPanel: {fileID: 7424992}
   fullStudyPanel: {fileID: 2026291096}
   show: 1
-  button: {fileID: 0}
+  button: {fileID: 738389706}
 --- !u!114 &521250638 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6614555221196381670, guid: dfc1e4b27951cc54ba0ad3e5df512bea, type: 3}
