@@ -40,7 +40,7 @@ public class AdmobController : MonoBehaviour
 
         RequestConfigurationAd();
 
-        //RequestBannerAd();
+        if(Application.loadedLevel>0)RequestBannerAd();
     }
 
     AdRequest AdRequestBuild(){
@@ -70,9 +70,9 @@ public class AdmobController : MonoBehaviour
             intersitional.Show();
             return true;
         } else {
-            if (Advertisement.IsReady()) {
+            //if (Advertisement.IsReady()) {
                 Advertisement.Show("Android_Interstitial");
-            }
+            //}
         }
 
         return false;
@@ -118,7 +118,7 @@ public class AdmobController : MonoBehaviour
     //baner
 
     public void RequestBannerAd(){
-        banner=new BannerView(bannerId,AdSize.Banner,AdPosition.TopLeft);
+        banner=new BannerView(bannerId,AdSize.Banner,AdPosition.Top);
         AdRequest request = AdRequestBannerBuild();
         banner.LoadAd(request);
     }
