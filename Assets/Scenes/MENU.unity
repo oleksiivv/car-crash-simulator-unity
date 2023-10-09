@@ -11603,6 +11603,7 @@ GameObject:
   - component: {fileID: 1869945280}
   - component: {fileID: 1869945282}
   - component: {fileID: 1869945281}
+  - component: {fileID: 1869945283}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -11833,6 +11834,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips: []
+--- !u!114 &1869945283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869945274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f736bcd713cda04ba4c779066746efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1878521871
 GameObject:
   m_ObjectHideFlags: 0
